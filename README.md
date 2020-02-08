@@ -4,6 +4,10 @@ Base image used that installs and configures libpam-mysql to enable MySQL based 
 
 This image uses [phusion/baseimage](https://github.com/phusion/baseimage-docker) as a base. Please see their docs for information on how startup and runtime scripts are used.
 
+## How to use
+
+Set as `FROM securenomad/libpam-mysql` in your Dockerfile and set the ENV vars mentioned below.
+
 ## ENV Variables
 
 ### MySQL Credentials

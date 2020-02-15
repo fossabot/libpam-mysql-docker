@@ -1,4 +1,6 @@
 # securenomad/libpam-mysql-docker
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsecurenomad%2Flibpam-mysql-docker.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsecurenomad%2Flibpam-mysql-docker?ref=badge_shield)
+
 
 Base image used that installs and configures libpam-mysql to enable MySQL based PAM authentication.
 
@@ -33,3 +35,7 @@ TEST_PASSWORD
 ### Debugging
 
 Set `DEBUG` to 1\. This will enable ssh and some more verbose logging on startup scripts. You can set the docker build time variable (`ARG`) SSH_IMPORT_ID to provide a user to [ssh-import-id](http://manpages.ubuntu.com/manpages/bionic/man1/ssh-import-id.1.html)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsecurenomad%2Flibpam-mysql-docker.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsecurenomad%2Flibpam-mysql-docker?ref=badge_large)
